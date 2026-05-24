@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Home.css'
-import logo from '../assets/logo.png'
+
 
 function Home({ onCreate, onJoin, onDebates, onAbout, error }) {
   const [topic, setTopic] = useState('')
