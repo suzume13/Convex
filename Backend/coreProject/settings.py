@@ -58,8 +58,10 @@ MIDDLEWARE = [
 ROOT_URLCONF = "coreProject.urls"
 
 CORS_ALLOWED_ORIGINS = [
+    'https://convex-backend-jvog.onrender.com',
     'http://localhost:5173',
 ]
+CORS_ALLOW_ALL_ORIGINS = True  # 👈 temporary, we'll tighten after Vercel deploy
 
 TEMPLATES = [
     {

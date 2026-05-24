@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Debates.css'
 
-const BASE = 'http://127.0.0.1:8000/api'
+const BASE = 'https://convex-backend-jvog.onrender.com/api'
 
 export const saveDebateToHistory = (debate) => {
   const history = getDebateHistory()
