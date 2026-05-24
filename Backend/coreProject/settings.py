@@ -37,7 +37,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "coreProject.wsgi.application"
+ROOT_URLCONF = "coreProject.urls"
 
 CORS_ALLOW_ALL_ORIGINS = True
 
