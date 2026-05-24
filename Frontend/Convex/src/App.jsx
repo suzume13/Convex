@@ -5,7 +5,7 @@ import DebateRoom from './components/DebateRoom'
 import About from './components/About'
 import Debates from './components/Debates'
 import { saveDebateToHistory, saveCreatedDebate } from './components/Debates'
-import { createDebate, joinDebateByCode } from './api'
+import { createDebate, joinDebateByCode } from './API'
 
 function App() {
   const [page, setPage] = useState('home')
