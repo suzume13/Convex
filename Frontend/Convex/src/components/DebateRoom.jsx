@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import './DebateRoom.css'
-import { fetchArguments, postArgument, castVote, closeDebate } from '../api'
+import { fetchArguments, postArgument, castVote, closeDebate } from '../Api'
 
 // ── ARGUMENT CARD ──
 function ArgumentCard({ arg, side, onVoteChange }) {
